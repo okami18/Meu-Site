@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Game Over</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A description of your website">
+		<meta name="keywords" content="keyword1, keyword2, keyword3">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script src= "C:/Users/Marco/Desktop/template_18/JS/java.js"></script>
+    	<link href= "https://fonts.googleapis.com/css?family=Teko" rel= "stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+		<script src= "./JS/java.js"></script>
+	</head>
+	<body>
+		<a href="#" class="menu-open"><img src="./images/block.png"></a>
+		<div id="wrapper"> 
+  			<div id="header"> 
+    			<div class="top_banner"><a href= "./index.html"><img src= "./images/go.png"></a></div><!-- div class="top_banner" -->
+				<div class="navigation">
+        <button class= "button"><a href= "./index.html">Home</a></button>
+        <button class= "button"><a href= "./notícias.html">Notícias</a></button>
+        <button class= "button"><a href= "./sobre.html">Sobre</a></button>
+        <button class= "button"><a href= "./jogos.html">Jogos</a></button>
+				</div><!-- div class="navigation" -->
+			</div><!-- div id="header" -->
+			<div id="page_content">
+				<div class="overlay"></div>
+				<div class="left_side_bar">
+					<a href="#" class="menu-close">&times;</a>
+					<div class="col_1">
+						<h1>Top Games</h1>
+						<div class="box">
+							<ul>
+								<li><a href= "./JF.html">Jump Force</a></li>
+								<li><a href= "./FC5.html">Far Cry 5</a></li>
+								<li><a href="#">Devil May Cry 5</a></li>
+								<li><a href= "./GOW4.html">God of War 4</a></li>
+								<li><a href= "./MK11.html">Mortal Kombat 11</a></li>
+								<li><a href= "./RDR2.html">Red Dead Redemption 2</a></li>
+								<li><a href= "./TD2.html">The Division 2</a></li>
+							</ul>
+						</div><!-- div class="box" -->
+					</div><!-- div class="col_1" -->
+					<div class="col_1">
+						<h1>Plataformas</h1>
+						<div class="box">
+							<ul>
+								<li><a href= "#">Xbox One</a></li>
+								<li><a href= "#">Playstation 4</a></li>
+								<li><a href= "#">PC</a></li>
+								<li><a href= "#">Mobile</a></li>
+							</ul>
+						</div><!-- div class="box" -->
+					</div><!-- div class="col_1" -->
+					<div class="col_1">
+						<h1>Ajuda</h1>
+						<div class= "box">
+							<ul>
+								<li><a href= "#">Perguntas Frequêntes</a></li>
+								<li><a href= "#" onclick="reclamacoes()">Reclamações</a></li>
+								<li><a href= "#" onclick="sugestoes()">Sugestões</a></li>
+							</ul>
+						</div><!-- div class="box" -->
+					</div><!-- div class="col_1" -->
+				</div><!-- div class="left_side_bar" -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				<script src="./JS/java.js"></script>
+				<div class="right_section">
+					<center>
+						<figure><img src= "./images/JF.gif"><figcaption><a class= "link" href= "./JF.html">Jump Force</a></figcaption></figure>
+					</center>
+					<p class= "id">Os heróis mais famosos dos mangás têm um novo campo de batalha: o nosso mundo. Unidos para en<wbr/>fren<wbr/>tar uma ameaça perigosa, a Jump Force é responsável pelo destino de toda a humanidade.</p><p class= "id">Crie seu avatar e mergulhe no <strong class= "ex">Modo História</strong> original ao lado dos heróis mais poderosos de Dragon Ball Z, One Piece, Naruto, Bleach, Hunter X Hunter, Yu-Gi-Oh!, Yu Yu Hakusho, Cavaleiros do Zodíaco e muito mais. Ou acesse o Lobby Online para desafiar outros jo<wbr/>ga<wbr/>do<wbr/>res e descobrir vários modos e atividades.</p><br>
+					<table>
+						<tr>
+							<th>
+								Desenvolvedor:
+							</th>
+							<th class= "none">
+								Gênero:
+							</th>
+							<th>
+								Plataformas:
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<a class= "link" href= "https://www.spike-chunsoft.com">Spike Chunsoft</a>
+							</td>
+							<td class= "none">
+								Luta
+							</td>
+							<td>
+								<a class= "link" href= "https://store.steampowered.com/app/816020/JUMP_FORCE/" target= "_blank"><img class= "icon" src= "./images/microsoft.png"></a>  <a class= "link" href= "https://store.playstation.com/pt-br/product/UP0700-CUSA11625_00-JUMP50THANNIV000" target= "_blank"><img class= "icon" src= "./images/playstation.png"></a>  <a class= "link" href= "https://www.xbox.com/pt-br/games/jump-force" target= "_blank"><img class= "icon" src= "./images/xbox.png"></a>
+							</td>
+						</tr>
+					</table>
+					<hr />
+<center>
+	<h1>Avaliação</h1>
+
+	<a href="javascript:void(0)" onclick="Avaliar(1)">
+	<img class= "star" src="./images/Starr.png" id="s1"></a>
+
+	<a href="javascript:void(0)" onclick="Avaliar(2)">
+	<img class= "star" src="./images/Starr.png" id="s2"></a>
+
+	<a href="javascript:void(0)" onclick="Avaliar(3)">
+	<img class= "star" src="./images/Starr.png" id="s3"></a>
+
+	<a href="javascript:void(0)" onclick="Avaliar(4)">
+	<img class= "star" src="./images/Starr.png" id="s4"></a>
+
+	<a href="javascript:void(0)" onclick="Avaliar(5)">
+	<img class= "star" src="./images/Starr.png" id="s5"></a>
+	<p id="rating">0</p>
+</center>
+				</div>
+				<div class="clear"></div>
+				<center>
+					<div id="footer">&copy; Game Over 2019. Design by <a class= "link" href= "#">Xablau Produções</a>
+					</div>
+				</center>
+			</div><!-- div id="page_content" -->
+		</div><!-- div id="wrapper" -->
+	</body>
+</html>
